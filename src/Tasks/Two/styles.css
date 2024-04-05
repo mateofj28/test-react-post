@@ -1,0 +1,32 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+.card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.center-card {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.body {
+    height: 100vh;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
